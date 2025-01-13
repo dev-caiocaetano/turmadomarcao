@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--cor-header);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.header__menu-hamburguer{
+    width: 40px;
+    height: 40px;
+    background-image: url("../assets/Menu.png");
+    display: inline-block;
+}
+
+.logo__empresa {
+    width: 200px ;
+    margin-right: auto;
+}
+
+.lista__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 20vh;
+}
+
+.header__botao {
+    display: none;
+}
+
+.header__botao:checked~.lista__menu {
+    display: block;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+}
+
+.lista__menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+    text-align: center;
+}
+
+.lista__menu__link{
+    font-family: var(--fonte-principal);
+    color:var(--cor-de-fundo);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.opções {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .header {
+        justify-content: flex-start;
+    }
+
+
+    .header__menu-hamburguer{
+        display: none !important;
+    }
+
+    .logo__empresa {
+        margin-right: auto;
+    }
+
+    .opções {
+        display: flex;
+        font-family: var(--fonte-principal);
+        gap: 1em;
+        margin: 0 auto 0 auto;
+    }
+
+
+    .opções__item a {
+        text-decoration: none !important;
+        color: var(--cor-primaria);
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+
+
+}

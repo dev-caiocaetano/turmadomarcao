@@ -1,0 +1,11 @@
+.rodape {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    padding: 2em;
+}
+
+.desenvolvedor {
+    display: flex;
+    justify-content: center;
+
+}

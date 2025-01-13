@@ -1,0 +1,25 @@
+@import url("styles/header.css");
+@import url("styles/fundo.css");
+@import url("styles/servicos.css");
+@import url("styles/sobre.css");
+@import url("styles/galeria.css");
+@import url("styles/depoimentos.css");
+@import url("styles/equipe.css");
+@import url("styles/contato.css");
+@import url("styles/footer.css");
+
+
+
+:root{
+    --fonte-principal: "Red Rose", serif;
+    --fonte-textos: "Mulish", serif;
+    --cor-de-fundo: #2a6255 ;
+    --cor-header: #EBECEE;
+    --branco: #FFFFFF;
+    --cor-primaria:#2a6255; 
+    --cor-secundaria: #737373; 
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
