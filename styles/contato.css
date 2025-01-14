@@ -11,7 +11,7 @@
 .contato__titulo {
     text-align: center;
     font-family: var(--fonte-principal);
-    color: var(--cor-primaria);
+    color: var(--preto);
     font-size: 28px;
     margin: 1em 0 0.5em 0;
 }
@@ -38,13 +38,17 @@
 
 .botao__cadastro {
     font-family: var(--fonte-principal);
-    color: var(--branco);
-    background-color: var(--cor-primaria);
+    color: var(--preto);
+    background-color: var(--cor-de-fundo);
     font-size: 16px;
     border-radius: 10px;
-    border: none;
     padding: 0.5em 0.5em;
     margin-top: 0.5em;
+    border: 1px solid var(--cor-primaria);
+}
+
+.botao__cadastro:hover {
+    background-color: var(--cor-primaria);
 }
 
 .contato__whats {

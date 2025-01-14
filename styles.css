@@ -13,11 +13,13 @@
 :root{
     --fonte-principal: "Red Rose", serif;
     --fonte-textos: "Mulish", serif;
-    --cor-de-fundo: #2a6255 ;
+    /* --cor-de-fundo: #2a6255; */
+    --cor-de-fundo: #79B09D;
     --cor-header: #EBECEE;
     --branco: #FFFFFF;
+    --preto: black;
     --cor-primaria:#2a6255; 
-    --cor-secundaria: #737373; 
+    --cor-secundaria: #737373;
 }
 
 body {
