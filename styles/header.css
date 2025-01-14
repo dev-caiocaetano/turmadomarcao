@@ -83,7 +83,7 @@
 
     .opções__item a {
         text-decoration: none !important;
-        color: var(--cor-primaria);
+        color: var(--preto);
         font-weight: 600;
         font-size: 18px;
     }
